@@ -18,7 +18,7 @@ export class Search extends Component {
       this.props.setAlert("Please enter something", "light");
     } else {
       this.props.searchUsers(this.state.text);
-      this.setState({ text: "" });
+
     }
   };
   render() {
